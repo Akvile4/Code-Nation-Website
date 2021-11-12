@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Fondamento&family=Poiret+One&family=Rochester&family=Sevillana&display=swap');
+
+
+body {
+    background-color: #F1D6AB;
+}
+
+.picture {
+    background-image: url("./beans2.jpg");
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+}
+
+h1 {
+    background-color: black;
+    font-family: 'Fondamento', cursive;
+    text-align: center;
+    color: #E3B04B;
+    font-size: 40px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fondamento', cursive;
+    color: #4E2718;
+}
+
+p1 {
+    text-align: center;
+    color: #2B2B28;
+    font-size: 30px;
+    font-family: 'Fleur De Leah', cursive;
+
+}
+
+p2 {
+    font-size: 20px;
+    font-family: 'Fondamento', cursive;
+    text-align: center;
+    color: #4E2718;
+}
+
+.imageposition {
+    display: flex;
+    justify-content: right;
+    object-fit: contain;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+button {
+    align-self:center;
+    background:transparent;
+    padding:1rem 1rem;
+    margin:0 1rem;
+    transition:all .5s ease;
+    color:#41403E;
+    font-size:2rem;
+    letter-spacing:1px;
+    outline:none;
+    box-shadow: 20px 38px 34px -26px 
+    hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* flex:2; */
+}
+
+ol {
+    font-family: 'Poiret One', cursive;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.background {
+    background-color: #889790;
+}
+
+h2 {
+    background-color: #4E2718;
+    font-family: 'Fondamento', cursive;
+    text-align: center;
+    color: #F3F6C8;
+    font-size: 40px;
+}
+
+p3 {
+    font-size: 30px;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    text-align: center;
+}
+
+.coffee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #889790;
+}
+
+.icecoffee {
+    display: flex;
+    flex-direction: column;
+    background-color: #8A8B85;
+}
+
+h3 {
+    background-color: #4E2718;
+    font-family: 'Fondamento', cursive;
+    text-align: center;
+    color: #F3F6C8;
+    font-size: 40px;
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagesize {
+    max-width: 100%;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+}
+
+.art {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 25%;
+}
